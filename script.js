@@ -1,7 +1,9 @@
-const wrapper = document.querySelector(".card-swiper-container");
 const cardsWrapper = document.querySelector(".swiper-wrapper");
 const hamburgerContainer = document.querySelector(".hamburger-container");
-
+const overlay = document.querySelector('#overlay');
+const openButton = document.querySelector('.open-overlay-button'); 
+const closeButton = overlay.querySelector('.button-menu-icon');
+const wrapper = document.querySelector(".card-swiper-container");
 const prevButton = document.querySelector(".pre-btn");
 const nextButton = document.querySelector(".nxt-btn");
 
