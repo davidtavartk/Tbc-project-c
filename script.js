@@ -1,5 +1,6 @@
 const wrapper = document.querySelector(".card-swiper-container");
 const cardsWrapper = document.querySelector(".swiper-wrapper");
+const hamburgerContainer = document.querySelector(".hamburger-container");
 
 const prevButton = document.querySelector(".pre-btn");
 const nextButton = document.querySelector(".nxt-btn");
